@@ -1,9 +1,0 @@
-CREATE DATABASE Comments;
-USE Comments;
-CREATE TABLE Comments(
-        comment_id INT AUTO_INCREMENT PRIMARY KEY,
-        name VARCHAR(20) NOT NULL,
-        msg VARCHAR(140) NOT NULL,
-        ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        parent INT DEFAULT NULL
-);
