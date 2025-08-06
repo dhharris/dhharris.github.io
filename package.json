@@ -22,9 +22,11 @@
     "gulp-autoprefixer": "^5.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
     "gulp-wait": "0.0.2",
     "hoek": "^5.0.4"
+  },
+  "dependencies": {
+    "sass": "^1.90.0"
   }
 }
